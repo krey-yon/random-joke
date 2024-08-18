@@ -1,0 +1,40 @@
+body{
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    height: 65vh;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+
+.card div div svg{
+    margin: 100px;
+}
+
+#btn{
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 40px;
+}
